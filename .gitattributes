@@ -1,2 +1,46 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="EXEMPLO DE PÁGINA HTML">
+    <title>MINHA PÁGINA</title>
+</head>
+<body>
+    <!-- Conteúdo da página aqui -->
+    <h1>GOSTO MUITO DO HTML!</h1>
+    <p>Este é um parágrafo de exemplo.</p>
+
+    <!-- Separação de conteúdo - Tag div -->
+
+    <div id="header">
+        <!-- Conteúdo do cabeçalho aqui -->
+    </div>
+    
+    <div id="content">
+        <!-- Conteúdo principal aqui -->
+    </div>
+    
+    <div id="footer">
+        <!-- Conteúdo do rodapé aqui -->
+    </div>
+
+    <!-- Tag imagem -->
+
+    <img src="https://brmtecnologia.files.wordpress.com/2015/04/tecnologia-informac3a7c3a3o-1.jpg" alt="Imagem de Exemplo"width="150" height="auto">  
+    
+    <!-- Formulário -->
+
+    <form action="processar_login.php" method="post">
+        <label for="username">Nome de Usuário:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Entrar</button>
+    </form>
+    
+</body>
+</html>
